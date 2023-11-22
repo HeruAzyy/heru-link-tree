@@ -6,6 +6,8 @@
     <link rel="icon" href="asset/img/logo.png" />
     <link rel="stylesheet" href="dist/output.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,14 +27,24 @@
             src="asset/img/logo.png"
             alt="Profile"
             class="mx-auto h-32 drop-shadow-md"
+            data-aos="fade-in"
+            data-aos-delay="300"
           />
         </div>
 
         <div class="w-full">
-          <h1 class="pt-3 text-5xl font-bold text-white drop-shadow-md">
+          <h1
+            class="pt-3 text-5xl font-bold text-white drop-shadow-md"
+            data-aos="fade-in"
+            data-aos-delay="500"
+          >
             Heru Azy
           </h1>
-          <p class="mt-2 text-lg font-light drop-shadow-md">
+          <p
+            class="mt-2 text-lg font-light drop-shadow-md"
+            data-aos="fade-in"
+            data-aos-delay="700"
+          >
             Student | Front-End Developer
           </p>
         </div>
@@ -45,6 +57,8 @@
           >
             <div
               class="mb-5 w-full rounded-lg border-t border-gray-500 bg-black/5 shadow-md shadow-gray-950/30 backdrop-blur-md transition-all duration-300 hover:bg-black/20"
+              data-aos="fade-up"
+              data-aos-delay="700"
             >
               <p class="py-3 font-semibold uppercase tracking-widest">
                 My Site
@@ -69,6 +83,8 @@
           >
             <div
               class="mb-5 w-full rounded-lg border-t border-gray-500 bg-black/5 shadow-md shadow-gray-950/30 backdrop-blur-md transition-all duration-300 hover:bg-black/20"
+              data-aos="fade-up"
+              data-aos-delay="900"
             >
               <p class="py-3 font-semibold uppercase tracking-widest">
                 Github
@@ -93,6 +109,8 @@
           >
             <div
               class="mb-5 w-full rounded-lg border-t border-gray-500 bg-black/5 shadow-md shadow-gray-950/30 backdrop-blur-md transition-all duration-300 hover:bg-black/20"
+              data-aos="fade-up"
+              data-aos-delay="1100"
             >
               <p class="py-3 font-semibold uppercase tracking-widest">
                 Instagram
@@ -117,6 +135,8 @@
           >
             <div
               class="mb-5 w-full rounded-lg border-t border-gray-500 bg-black/5 shadow-md shadow-gray-950/30 backdrop-blur-md transition-all duration-300 hover:bg-black/20"
+              data-aos="fade-up"
+              data-aos-delay="1300"
             >
               <p class="py-3 font-semibold uppercase tracking-widest">
                 Email
@@ -139,5 +159,13 @@
         </div>
       </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
